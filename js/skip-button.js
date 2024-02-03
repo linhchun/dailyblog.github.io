@@ -1,0 +1,1 @@
+const skipButton=document.querySelector("#skip-button"),skipDestination=document.querySelector("#skip-destination");skipButton.addEventListener("click",t=>{null!=skipDestination&&skipDestination.focus()});

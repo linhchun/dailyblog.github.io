@@ -1,0 +1,1 @@
+!function(e){e.localModeStore=function(){const t="firebase-mode-toggle",r=e.matchMedia("(prefers-color-scheme: dark)");return{get(){var e=localStorage.getItem(t);return null!=e?e:r.matches?"dark":"light"},set(e){return localStorage.setItem(t,e)}}}}(window);

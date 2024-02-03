@@ -1,0 +1,1 @@
+customElements.define("firebase-scroll-button",class extends HTMLElement{connectedCallback(){var e=document.createElement("button");e.classList.add("mono-button"),e.textContent="Scroll to Top",e.addEventListener("click",e=>{window.scrollTo(0,0)}),this.appendChild(e)}});
